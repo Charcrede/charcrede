@@ -14,9 +14,10 @@
 export default {
     methods: {
         downloadPDF() {
-            const pdfPath = require('@/assets/Charcre-bailse-Junior-Destimmense-Kingnon-14-07-2024.pdf'); // Chemin du PDF
+            const pdfPath = require('../assets/Charcre-bailse-Junior-Destimmense-Kingnon-14-07-2024.pdf'); // Chemin du PDF
+            console.log(pdfPath)
             const link = document.createElement('a');
-            link.href = pdfPath;
+            link.href = pdfPath.default;
             link.download = 'CV-Charcre-bailse.pdf'; // Nom du fichier lors du téléchargement
             link.click();
         }

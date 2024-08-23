@@ -35,7 +35,7 @@
 
     <!-- Menu déroulant pour les petits écrans -->
     <div v-if="isMenuOpen"
-      class="lg:hidden bg-black bg-opacity-90 fixed left-0 right-0 top-0 z-10 h-screen w-screen flex flex-col items-center justify-center">
+      class="lg:hidden bg-black bg-opacity-90 fixed left-0 right-0 top-0  z-20 h-screen w-screen flex flex-col items-center justify-center">
       <!-- <button @click="toggleMenu" class="absolute top-0 right-0">
         <SwitchH></SwitchH>
       </button> -->
@@ -82,17 +82,17 @@
       </nav>
       <div class="text-white font-clash flex flex-col gap-4 basis-1/5">
         <div class="group relative w-fit px-2">
-          <a href="/">Facebook</a>
+          <a href="https://www.facebook.com/profile.php?id=100084141554519">Facebook</a>
           <div class="w-0 h-[2px] bg-blanc absolute bottom-0 group-hover:w-full duration-300 rounded-full">
           </div>
         </div>
         <div class="group relative w-fit px-2">
-          <a href="/work">Github</a>
+          <a href="https://github.com/charcrede">Github</a>
           <div class="w-0 h-[2px] bg-blanc absolute bottom-0 group-hover:w-full duration-300 rounded-full">
           </div>
         </div>
         <div class="group relative w-fit px-2">
-          <a href="/about">charcrede@gmail.com</a>
+          <a mailto="charcrede@gmail.com">charcrede@gmail.com</a>
           <div class="w-0 h-[2px] bg-blanc absolute bottom-0 group-hover:w-full duration-300 rounded-full">
           </div>
         </div>

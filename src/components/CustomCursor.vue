@@ -4,7 +4,7 @@
       <svg
         :style="cursorStyle"
         :class="{ 'cursor-hover': isHovering }"
-        class="custom-cursor"
+        class="custom-cursor xs:hidden lg:block"
         width="20"
         height="20"
         viewBox="0 0 24 24"
