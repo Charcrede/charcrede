@@ -35,7 +35,7 @@
 
     <!-- Menu déroulant pour les petits écrans -->
     <div v-if="isMenuOpen"
-      class="bg-black bg-opacity-90 fixed left-0 right-0 top-0 z-10 h-screen w-screen flex flex-col items-center justify-center">
+      class="lg:hidden bg-black bg-opacity-90 fixed left-0 right-0 top-0 z-10 h-screen w-screen flex flex-col items-center justify-center">
       <!-- <button @click="toggleMenu" class="absolute top-0 right-0">
         <SwitchH></SwitchH>
       </button> -->
@@ -115,7 +115,7 @@ export default {
   data() {
     return {
       route: useRoute(),
-      isMenuOpen: true, // État pour contrôler l'affichage du menu
+      isMenuOpen: false, // État pour contrôler l'affichage du menu
       links : [
         {name : 'Accueil', path : '/'},
         {name : 'Travaux', path : '/work'},
