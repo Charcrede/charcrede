@@ -138,7 +138,7 @@ export default {
                     <div class="relative group w-fit lg:my-4  xs:mb-2 lg:text-2xl xs:text-xl xs:left-3/4">
                         <div class="-z-10 absolute top-0 bottom-0 left-0 w-0 group-hover:w-full bg-white duration-300">
                         </div>
-                        <a href="https://typanime.vercel.app/" target="_blanck"
+                        <a href="https://charcrede.github.io/casse-brick/" target="_blanck"
                             class="block font-bold group-hover:text-black duration-300 p-2 px-4">Visiter </a>
                     </div>
                 </div>
@@ -192,7 +192,7 @@ export default {
                     <div class="relative group w-fit lg:my-4 xs:my-0 lg:text-2xl xs:text-xl  left-3/4">
                         <div class="-z-10 absolute top-0 bottom-0 right-0 w-0 group-hover:w-full bg-white duration-300">
                         </div>
-                        <a href="https://typanime.vercel.app/" target="_blanck"
+                        <a href="https://numvirtual.com/" target="_blanck"
                             class="block font-bold group-hover:text-black duration-300 p-2 px-4">Visiter </a>
                     </div>
                 </div>
