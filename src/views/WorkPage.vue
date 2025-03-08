@@ -55,7 +55,7 @@ export default {
             Une appli qui <span class="font-semibold">teste tes connaissances</span> sur les animés
           </figcaption>
                     <span class="text-[#aaaaaa] lg:text-2xl xs:text-xl">
-                        Application
+                        Application, Charcre-bailse
                     </span>
                     <div class="relative group w-fit lg:my-4 xs:my-0 lg:text-2xl xs:text-xl  left-3/4">
                         <div class="-z-10 absolute top-0 bottom-0 right-0 w-0 group-hover:w-full bg-white duration-300">
@@ -77,7 +77,7 @@ export default {
                             class="font-semibold">s'amusant</span>
                     </figcaption>
                     <span class="text-[#aaaaaa] lg:text-2xl xs:text-xl">
-                        Charcre-bailse
+                        Site web, Charcre-bailse
                     </span>
                     <div class="relative group w-fit lg:my-4  xs:mb-2 lg:text-2xl xs:text-xl xs:left-3/4">
                         <div class="-z-10 absolute top-0 bottom-0 left-0 w-0 group-hover:w-full bg-white duration-300">
@@ -176,7 +176,7 @@ export default {
                             class="font-semibold">casser des briques </span>
                     </figcaption>
                     <span class="text-[#aaaaaa] lg:text-2xl xs:text-xl">
-                        Charcrede
+                        Site web, Charcre-bailse
                     </span>
                     <div class="relative group w-fit lg:my-4  xs:mb-2 lg:text-2xl xs:text-xl xs:left-3/4">
                         <div class="-z-10 absolute top-0 bottom-0 left-0 w-0 group-hover:w-full bg-white duration-300">
