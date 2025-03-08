@@ -105,6 +105,10 @@
         <img src="../assets/next-js.svg" alt="" class="w-16 h-16">
         <span class="lg:text-2xl xs:text-xl font-clash">Next js</span>
       </div>
+      <div class="flex gap-4 justify-centerleft-center">
+        <img src="../assets/flutter.png" alt="" class="w-16 h-16">
+        <span class="lg:text-2xl xs:text-xl font-clash">Flutter</span>
+      </div>
       <div class="flex gap-4 justify-left items-center">
         <img src="../assets/sass-1.svg" alt="" class="w-16 h-16">
         <span class="lg:text-2xl xs:text-xl font-clash">SCSS</span>
