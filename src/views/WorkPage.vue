@@ -24,6 +24,49 @@ export default {
         <img :src="require('../assets/Ellipse-4.svg')" alt="" class="absolute -bottom-[20%] left-[20%] -z-10 lg:w-48 lg:h-48 xs:w-24 xs:h-24 rotate">
         <img :src="require('../assets/Eye2.svg')" alt="" class="absolute -bottom-[18%] right-1/4 -z-10  lg:w-24 lg:h-24 xs:w-16 xs:h-16 bounce">
         <section class="text-white">
+            <figure class="lg:flex-row xs:flex-col-reverse flex xs:gap-0 lg:gap-8 items-center justify-between">
+                <div class="lg:w-3/5 xs:w-full group relative">
+                    <swiper :slides-per-view="1" :space-between="50"
+                        class="rounded-2xl w-full">
+                        <swiper-slide>
+                            <img :src="require(`../assets/quizzer.png`)" alt="">
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img :src="require(`../assets/quizzer.png`)" alt="">
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img :src="require(`../assets/quizzer.png`)" alt="">
+                        </swiper-slide>
+                    </swiper>
+                    <div
+                        class="absolute top-0 bottom-0 left-0 right-0 bg-black bg-opacity-50 z-10 opacity-0 group-hover:opacity-100 duration-300 flex justify-center gap-8 backdrop-blur-sm">
+                        <span
+                            class="flex justify-center items-center gap-4 text-[2rem] font-clash font-semibold text-[#aaa]">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-60 h-60" width="100" height="100" fill="#aaa"><path d="M429.5 236.3L291.7 374.1 429.5 512H272l-59.1-59.1-78.8-78.8L272 236.3H429.5zM272 0L16 256l78.8 78.8L429.5 0H272z"/></svg>
+                            Flutter
+                        </span>
+                    </div>
+                </div>
+                <div class="lg:w-2/5 xs:w-full lg:text-right xs:text-left">
+                    <h3 class="lg:text-2xl xs:text-xl lg:mb-8 xs:mb-4">
+                        Quizzer
+                    </h3>
+                    <figcaption class="lg:text-[2.5rem] xs:text-[1.25rem] font-clash">
+            Une appli qui <span class="font-semibold">teste tes connaissances</span> sur les animés
+          </figcaption>
+                    <span class="text-[#aaaaaa] lg:text-2xl xs:text-xl">
+                        Application
+                    </span>
+                    <div class="relative group w-fit lg:my-4 xs:my-0 lg:text-2xl xs:text-xl  left-3/4">
+                        <div class="-z-10 absolute top-0 bottom-0 right-0 w-0 group-hover:w-full bg-white duration-300">
+                        </div>
+                        <a href="https://anime-quizzer.vercel.app/" target="_blanck"
+                            class="block font-bold group-hover:text-black duration-300 p-2 px-4">Visiter </a>
+                    </div>
+                </div>
+            </figure>
+        </section>
+        <section class="text-white">
             <figure class="lg:flex xs:block gap-8 items-center justify-between">
                 <div class="lg:w-2/5 xs:w-full text-left">
                     <h3 class="lg:text-2xl xs:text-xl lg:mb-8 xs:mb-4">
