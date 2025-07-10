@@ -125,7 +125,6 @@
   </article>
   <div class="text-center lg:mt-32 w-fit mx-auto xs:mt-16">
     <DownloadCv></DownloadCv>
-
   </div>
 </template>
 
