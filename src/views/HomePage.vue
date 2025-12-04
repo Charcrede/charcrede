@@ -1,11 +1,26 @@
 <!-- src/views/Home.vue -->
 <template>
-  <div class="text-white font-clash lg:px-56 xs:px-8 relative">
-    <BackGround />
-    <ProjectSection :title="project.title"
-      :description="project.description" :more="project.more" :link="project.url" :boldWords="project.boldWords"
-      :images="project.images" :imagePosition="project.imagePosition" :technologies="project.technologies" />
+  <div>
+    <div class="text-white font-clash lg:px-44 xs:px-8 mb-24">
+      <p
+        class="lg:w-2/6 xs:w-5/6 xs:-ml-4  lg:-ml-8 pb-2 border-b-2 border-blanc mt-8 text-white text-[1rem] font-gtsd italic">
+        La programmation est un art, l'art
+        d'insufler la vie, l'art de faire naître l'imagination, l'art de rendre réel l'irréel.</p>
+      <h1 class="mb-8 font-clash lg:text-[5rem] xs:text-[2rem] text-white font-semibold mt-8"><span
+          class="font-normal block lg:text-[3rem] xs:text-[1.5rem]">Bienvenu bel étrangé, je suis </span>Charcre-bailse
+        J. D. Kingnon</h1>
+      <p class="lg:text-3xl xs:text-xl italic w-full text-right mb-24 mr-24 lg:mt-8 xs:-mt-4">Développeur web</p>
+    </div>
+    <div class="text-white font-clash lg:px-56 xs:px-8 relative">
+
+      <BackGround />
+
+      <ProjectSection :title="project.title" :description="project.description" :more="project.more" :link="project.url"
+        :boldWords="project.boldWords" :images="project.images" :imagePosition="project.imagePosition"
+        :technologies="project.technologies" />
+    </div>
   </div>
+
 </template>
 
 <script>
